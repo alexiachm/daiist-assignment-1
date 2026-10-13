@@ -112,12 +112,12 @@ I used Claude (Anthropic) throughout this assignment. What it did, and what I de
 - I decided the rule for removing the 3 outlier rows after looking at the data.
 
 **Training**
-- Claude helped me write and edit part of the code for the three model implementations. When the manual PyTorch loss differed from the scikit-learn result, it helped me diagnose the gap. I ran the diagnostic script, and training longer (original defaults: `lr=0.01, epochs=5000`; final: `lr=0.05, epochs=20000`) closed most of it. So Claude gave me the bigger numbers to see if that would help. 
+- Claude helped me write and edit most of the code for the three model implementations. When the manual PyTorch loss differed from the scikit-learn result, it helped me diagnose the gap. I ran the diagnostic script, and training longer (original defaults: `lr=0.01, epochs=5000`; final: `lr=0.05, epochs=20000`) closed most of it. So Claude gave me the bigger numbers to see if that would help. 
 
 **Dashboard**
 - Claude wrote most of the code for the Gradio app (`app.py`), and I edited parts of it. I ran it, tested each tab and the price form, and checked that the outputs made sense. This part was the hardest for me to code so Claude helped me more than with the other parts. 
 
 **Report**
-- Claude helped me make sure this report made sense after I wrote it. 
+- Claude helped me make sure this report made sense after I wrote it, and helped me organize it in tables and in a more readable manner. 
 
 
